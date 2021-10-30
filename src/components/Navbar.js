@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import "./Navbar.css";
 import SearchIcon from '@material-ui/icons/Search';
@@ -5,11 +6,11 @@ import SearchIcon from '@material-ui/icons/Search';
 function Navbar() {
     return (
         <>
-        {/* logo part */}
+            {/* logo part */}
             <nav className="main-nav">
                 <ul className="nav-list">
-                   <li className="list-item logo">
-                   <a href="#">Myntra</a>
+                    <li className="list-item logo">
+                        <a href="#">Myntra</a>
                     </li>
                     <li className="list-item">
                         <a href="#">Home</a>
@@ -23,14 +24,14 @@ function Navbar() {
                     <li className="list-item">
                         <a href="#">Contact</a>
                     </li>
-                      {/* search icon */}
-                      <li className="list-item search-bar">
-                      <SearchIcon/>
-                      <input type="text" placeholder="Search"/>
-                      </li>
-                      
+                    {/* search icon */}
+                    <li className="list-item search-bar">
+                        <SearchIcon />
+                        <input type="text" placeholder="Search" />
+                    </li>
+
                 </ul>
-              
+
             </nav>
             {/* Chat sec */}
         </>
