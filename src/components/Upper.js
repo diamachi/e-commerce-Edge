@@ -1,11 +1,21 @@
-import React from 'react'
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react';
+import "./Upper.css";
 import { NavDropdown, Nav, Offcanvas, Container, Button, Navbar, Form, FormControl } from 'react-bootstrap'
 
-function Sidebar() {
+function Upper() {
     return (
-        <div>
+        <>
             <Navbar bg="light" expand={false}>
+                <Container>
+
+
+                </Container>
                 <Container fluid>
+                    <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Nav.Link href="#features">Features</Nav.Link>
+                    <Nav.Link href="#pricing">Pricing</Nav.Link>
                     <Navbar.Toggle aria-controls="offcanvasNavbar" />
                     <Navbar.Offcanvas
                         id="offcanvasNavbar"
@@ -41,8 +51,8 @@ function Sidebar() {
                     </Navbar.Offcanvas>
                 </Container>
             </Navbar>
-        </div>
+        </>
     )
 }
 
-export default Sidebar
+export default Upper
