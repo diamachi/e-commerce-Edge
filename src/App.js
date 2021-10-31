@@ -4,13 +4,15 @@ import './App.css';
 import Card from './components/Card'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Upper from './components/Upper';
+import Adver from './components/Ad'
 
 function App() {
   return (
     <div className="App">
       {/* navbar */}
       <Upper />
-      <Card />
+      <Adver />
+      {/* Card */}
       {/* genchat */}
     </div>
   );
