@@ -4,8 +4,9 @@ import './Ad.css'
 
 const Adver = () => (
     <div class='bruh'>
-        <Advertisement unit='half page' test='Placeholder For Ads' />
-
+        <Advertisement unit='half'>
+            <img src='https://i.imgur.com/NPvi5nY.png' alt='mah swag' />
+        </Advertisement>
     </div>
 
 
