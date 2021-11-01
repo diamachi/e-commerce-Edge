@@ -1,15 +1,13 @@
 /* eslint-disable no-unused-vars */
-<<<<<<< Updated upstream
-import React from 'react';
-import './App.css';
-import Card from './components/Card'
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Upper from './components/Upper';
-import Adver from './components/Ad'
-=======
+// import React from "react";
+// import "./App.css";
+// import Card from './components/Card'
+// import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+// import Upper from "./components/Upper";
+import Adver from "./components/Ad";
 import React, { useEffect } from "react";
 import "./App.css";
-import Card from "./components/Card";
+// import Card from "./components/Card";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Upper from "./components/Upper";
 import { useSelector, useDispatch } from "react-redux";
@@ -32,7 +30,6 @@ import { login, logout } from "./features/userSlice";
 // }
 
 // export default App;
->>>>>>> Stashed changes
 
 function App() {
   const dispatch = useDispatch();
@@ -56,18 +53,11 @@ function App() {
     });
   }, [dispatch]);
   return (
-<<<<<<< Updated upstream
-    <div className="App">
-      {/* navbar */}
-      <Upper />
-      <Adver />
-      {/* Card */}
-      {/* genchat */}
-=======
     <div className="app">
       {user ? (
         <>
           <Upper />
+          <Adver />
           <div className="chat_sec">
             <Sidebar />
             <Chat />
@@ -76,7 +66,6 @@ function App() {
       ) : (
         <Login />
       )}
->>>>>>> Stashed changes
     </div>
   );
 }
