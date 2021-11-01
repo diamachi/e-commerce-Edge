@@ -53,12 +53,13 @@ function App() {
     });
   }, [dispatch]);
   return (
-    <div className="app">
+    <div class="app">
       {user ? (
         <>
           <Upper />
-          <Adver />
-          <div className="chat_sec">
+          
+          <div class="adver_side_chat">
+            <Adver />
             <Sidebar />
             <Chat />
           </div>
