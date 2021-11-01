@@ -1,0 +1,11 @@
+/* .app {
+  display: flex;
+} */
+
+.chat_sec {
+  display: flex;
+  padding-left: 36%;
+  padding-top: 2%;
+  margin-right: 4%;
+  box-sizing: border-box;
+}
