@@ -21,7 +21,8 @@ import Login from "./components/Login";
 import { auth } from "./firebase";
 import { login, logout } from "./features/userSlice";
 import Home from './components/Home';
-import Order from './components/Order'
+import Order from './components/Order';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // function App() {
 //   return (

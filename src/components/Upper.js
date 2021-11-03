@@ -16,12 +16,12 @@ function Upper() {
   return (
     <>
       <Navbar sticky="top" bg="light" expand={false}>
-        <Container></Container>
+        <Container ></Container>
         <Container fluid>
-          <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Navbar.Brand href="#">Myntra forum</Navbar.Brand>
+          <Nav.Link class="nav-list  " href="#Community">Community</Nav.Link>
+          <Nav.Link class="nav-list  " href="#New Arrivals">New Arrivals</Nav.Link>
+          <Nav.Link class="nav-list  " href="#Rewards">Rewards</Nav.Link>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Navbar.Offcanvas
             id="offcanvasNavbar"
@@ -35,7 +35,7 @@ function Upper() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#action1">Home</Nav.Link>
+                <Nav.Link href="#action1">Community</Nav.Link>
                 <Nav.Link href="#action2">Link</Nav.Link>
                 <NavDropdown title="Dropdown" id="offcanvasNavbarDropdown">
                   <NavDropdown.Item href="#action3">Action</NavDropdown.Item>

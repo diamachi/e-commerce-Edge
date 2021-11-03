@@ -6,7 +6,9 @@ import Adver from "./Ad";
 function Home() {
     return (
         <div class="adver_side_chat">
-            <Adver />
+            <Adver class='sticky-top'>
+
+            </Adver>
             <Sidebar />
             <Chat />
         </div>
