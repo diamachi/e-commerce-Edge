@@ -11,6 +11,7 @@ import {
   Form,
   FormControl,
 } from "react-bootstrap";
+import { Link } from 'react-router-dom'
 
 function Upper() {
   return (
@@ -19,9 +20,9 @@ function Upper() {
         <Container ></Container>
         <Container fluid>
           <Navbar.Brand href="#">Myntra forum</Navbar.Brand>
-          <Nav.Link class="nav-list  " href="#Community">Community</Nav.Link>
-          <Nav.Link class="nav-list  " href="#New Arrivals">New Arrivals</Nav.Link>
-          <Nav.Link class="nav-list  " href="#Rewards">Rewards</Nav.Link>
+          <Nav.Link class="nav-list  " as={Link} to="/" href="#Community">Community</Nav.Link>
+          <Nav.Link class="nav-list  " as={Link} to="/" href="#New Arrivals">New Arrivals</Nav.Link>
+          <Nav.Link class="nav-list  " as={Link} to="/order" href="#Rewards">Rewards</Nav.Link>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Navbar.Offcanvas
             id="offcanvasNavbar"
