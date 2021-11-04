@@ -19,7 +19,7 @@ function Upper() {
       <Navbar sticky="top" bg="light" expand={false}>
         <Container ></Container>
         <Container fluid>
-          <Navbar.Brand href="#">Myntra forum</Navbar.Brand>
+          <Navbar.Brand href="#">Myntra Forum</Navbar.Brand>
           <Nav.Link class="nav-list  " as={Link} to="/" href="#Community">Community</Nav.Link>
           <Nav.Link class="nav-list  " as={Link} to="/" href="#New Arrivals">New Arrivals</Nav.Link>
           <Nav.Link class="nav-list  " as={Link} to="/order" href="#Rewards">Rewards</Nav.Link>
