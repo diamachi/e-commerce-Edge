@@ -1,0 +1,58 @@
+[
+  {
+    "userId": "01a",
+    "comId": "012",
+    "fullName": "Peeyush yadav",
+    "avatarUrl": "https://ui-avatars.com/api/name=Riya&background=random" ,
+    "text": "Hey, do this plus size fits the shoulder perfectly? ",
+    "replies": [
+      {
+        "userId": "02a",
+        "comId": "013",
+  
+        "fullName": "Nitin kumar",
+        "avatarUrl": "https://ui-avatars.com/api/name=Adam&background=random" ,
+        "text": "Ya, it fits me best atleast.😊"
+      },
+      {
+        "userId": "01a",
+        "comId": "014",
+  
+        "fullName": "Peeyush yadav",
+        "avatarUrl": "https://ui-avatars.com/api/name=Riya&background=random",
+        "text": "thanks!😊"
+      }
+    ]
+  },
+  {
+    "userId": "02a",
+    "comId": "07",
+    "fullName": "Mohit Dayal",
+    "text": "The color looks kinda fade though😇",
+    "avatarUrl": "https://ui-avatars.com/api/name=Adam&background=random"
+  },
+  {
+    "userId": "02a",
+    "comId": "015",
+    "fullName": "Pawan Sahu",
+    "avatarUrl": "https://ui-avatars.com/api/name=Robert&background=random",
+    "text": "Woah, seriously?",
+    "replies": [
+      {
+        "userId": "01b",
+        "comId": "016",
+  
+        "fullName": "Mohit Dayal",
+        "text": "yep,.. if you wanna go for same design i recommend you this #159965",
+        "avatarUrl": "https://ui-avatars.com/api/name=Adam&background=random"
+      }
+    ]
+  },
+  {
+    "userId": "02b",
+    "comId": "017",
+    "fullName": "Lily",
+    "text": "I have a doubt 🤔",
+    "avatarUrl": "https://ui-avatars.com/api/name=Lily&background=random"
+  }
+]
