@@ -7,6 +7,8 @@ function Community() {
         <div>
             <Order />
             <SideCard />
+            <SideCard />
+            <SideCard />
         </div>
     )
 }
