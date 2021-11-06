@@ -1,0 +1,16 @@
+.community-main {
+  display: flex;
+}
+.forums-section {
+  flex: 1;
+  position: relative;
+  text-align: center;
+  top: 10px;
+  margin: 10px;
+  padding: 20px;
+}
+.sidecards-section {
+  flex: 0.5;
+  margin: 10px;
+  padding: 20px;
+}
