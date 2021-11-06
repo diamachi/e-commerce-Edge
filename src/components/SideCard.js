@@ -18,6 +18,7 @@ const useStyles = makeStyles(({ breakpoints, spacing }) => ({
         position: 'relative',
         maxWidth: 500,
         marginLeft: '50px',
+        marginRight: '50px',
         marginTop: '25px',
         overflow: 'initial',
         background: '#FD913C',
@@ -67,7 +68,7 @@ const useStyles = makeStyles(({ breakpoints, spacing }) => ({
     },
 }));
 
-export const SideCard = React.memo(function BlogCard() {
+export const SideCard = React.memo(function BlogCard(props) {
     const styles = useStyles();
     const {
         button: buttonStyles,
@@ -78,17 +79,15 @@ export const SideCard = React.memo(function BlogCard() {
         <Card className={cx(styles.root, shadowStyles.root)}>
             <CardMedia
                 className={styles.media}
-                image={
-                    'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2000px-Git_icon.svg.png'
-                }
+                image={props.link}
             />
             <CardContent>
                 <TextInfoContent
                     classes={contentStyles}
-                    overline={'28 MAR 2019'}
-                    heading={'What is Git ?'}
+                    overline={'8 Nov 2021'}
+                    heading={props.name}
                     body={
-                        'Git is a distributed version control system. Every dev has a working copy of the code and...'
+                        props.price
                     }
                 />
                 <Button className={buttonStyles}>Read more</Button>
