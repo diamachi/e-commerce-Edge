@@ -16,7 +16,8 @@ import Login from "./components/Login";
 import { auth } from "./firebase";
 import { login, logout } from "./features/userSlice";
 import Home from "./components/Home";
-import Order from "./components/Order";
+import Community from "./components/Community";
+import Rewards from "./components/Rewards";
 
 // function App() {
 //   return (
@@ -71,8 +72,11 @@ function App() {
                 <Route exact path="/">
                   <Home />
                 </Route>
-                <Route path="/order">
-                  <Order />
+                <Route path="/community">
+                  <Community />
+                </Route>
+                <Route path="/rewards">
+                  <Rewards />
                 </Route>
               </Switch>
             </div>

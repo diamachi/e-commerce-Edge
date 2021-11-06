@@ -17,12 +17,11 @@ function Upper() {
   return (
     <>
       <Navbar sticky="top" bg="light" expand={false}>
-        <Container ></Container>
         <Container fluid>
           <Navbar.Brand href="#">Myntra Forum</Navbar.Brand>
-          <Nav.Link class="nav-list  " as={Link} to="/" href="#Community">Community</Nav.Link>
+          <Nav.Link class="nav-list  " as={Link} to="/community" href="#Community">Community</Nav.Link>
           <Nav.Link class="nav-list  " as={Link} to="/" href="#New Arrivals">New Arrivals</Nav.Link>
-          <Nav.Link class="nav-list  " as={Link} to="/order" href="#Rewards">Rewards</Nav.Link>
+          <Nav.Link class="nav-list  " as={Link} to="/rewards" href="#Rewards">Rewards</Nav.Link>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Navbar.Offcanvas
             id="offcanvasNavbar"
