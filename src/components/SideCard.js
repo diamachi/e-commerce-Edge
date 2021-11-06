@@ -4,12 +4,14 @@ import './SideCard.css'
 
 function SideCard() {
     return (
-        <div class="card border rounded mx-auto">
-            <Card bg={'secondary'} style={{ width: '35rem' }}>
+        <div>
+            <Card.Img variant="top" src="https://i.imgur.com/YdAv1hSm.jpg" />
+
+            <Card bg={'secondary'} style={{ width: '25rem' }}>
                 <Card.Body>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        <strong><p align='center' className='para'>Fossil</p></strong>
+                        <p align='center' className='para-below'>Men Black Analogue Watch BQ2365</p>
                     </Card.Text>
                 </Card.Body>
             </Card>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Order from './Order'
 import SideCard from './SideCard'
+import './Community.css'
 
 function Community() {
     return (
