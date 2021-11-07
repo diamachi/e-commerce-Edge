@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .login {
   display: grid;
+  background: linear-gradient(#e66465, #9198e5);
   place-items: center;
   height: 100vh;
   width: 100%;
