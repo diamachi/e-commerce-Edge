@@ -4,7 +4,7 @@ import pic from "./peeyush.png";
 
 function Rewards() {
   return (
-    <div className="profile">
+      <div className="profile bg">
       <div className="profile-card">
         <div className="card-header">
           <div className="pic">
@@ -36,7 +36,7 @@ function Rewards() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
   );
 }
 
