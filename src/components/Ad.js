@@ -1,15 +1,14 @@
 import React from 'react'
-import { Advertisement } from 'semantic-ui-react'
-import './Ad.css'
+// import { Advertisement } from 'semantic-ui-react'
+// import './Ad.css'
 
 const Adver = () => (
-    <div class='bruh'>
-        <Advertisement unit='half'>
-            <img src='https://i.imgur.com/NPvi5nY.png' alt='mah swag' />
-        </Advertisement>
+    <div class="advert">
+     <img src="https://i.imgur.com/rfO7cPq.png" alt='ad banner' />
+
     </div>
 
 
 )
 
-export default Adver
+export default Adver;
