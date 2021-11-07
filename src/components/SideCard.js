@@ -56,7 +56,7 @@ const useStyles = makeStyles(({ breakpoints, spacing }) => ({
       height: "100%",
       backgroundImage: "linear-gradient(147deg, #fe8a39 0%, #fd3838 74%)",
       borderRadius: spacing(2), // 16
-      opacity: 0.5,
+      opacity: 0.1,
     },
   },
   content: {
