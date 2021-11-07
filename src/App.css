@@ -9,16 +9,16 @@
   padding-right: 2%;
   padding-left: 2%;
   box-sizing: border-box;
-  background: #eee;
+  background: linear-gradient(#e66465, #9198e5);
 }
 
-.sidebar{
-  display:flex;
-  max-height:90vh;
+.sidebar {
+  display: flex;
+  max-height: 90vh;
   margin-left: 2%;
 }
 
-.chat{
-  display:flex;
-  max-height:90vh;
+.chat {
+  display: flex;
+  max-height: 90vh;
 }

@@ -64,31 +64,12 @@ function Sidebar() {
           ))}
         </div>
       </div>
-      {/* <div className="sidebar_voice">
-<SignalCellularAltIcon
-className="sidebar_voiceIcon"
-fontSize="large"
-/>
-<div className="sidebar_voiceInfo">
-    <h3> Voice Connected</h3>
-    <p>Stream</p>
-</div>
-<div className="sidebar_voiceIcons">
-<InfoOutlinedIcon/>
-    <CallIcon/>
-</div>
-</div> */}
       <div className="sidebar_profile">
         <Avatar onClick={() => auth.signOut()} src={user.photo} />
         <div className="sidebar_profileInfo">
           <h4>{user.displayName}</h4>
           <p>#{user.uid.substring(0, 5)}</p>
         </div>
-        {/* <div className="sidebar_profileIcons">
-<MicIcon/>
-<HeadsetIcon/>
-<SettingsIcon/>
-</div> */}
       </div>
     </div>
   );

@@ -4,6 +4,7 @@
   flex: 0.75;
   background: #eee;
   height: 100vh;
+  border-radius: 0px 20px 20px 0px;
 }
 .chat_messages {
   flex: 1;
