@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-
+@import url("http://fonts.cdnfonts.com/css/black-jack");
 * {
   box-sizing: border-box;
 }
@@ -19,37 +19,45 @@ body {
   align-items: center;
 }
 
-.color-nav{
+.color-nav {
   background-color: #e66465;
 }
-.logo{
+.logo {
   font-weight: bold;
+  font-family: "BlackJack", sans-serif;
+}
+.logo-image {
+  position: relative;
+  right: 1px;
+  bottom: 5px;
 }
 
 .gradient-text {
-    background-color: #f3ec78;
-    background-image: linear-gradient(#E72744, #F13AB1);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-}
-.navbar_logo{  background-color: #f3ec78;
-  background-image: linear-gradient(#E72744, #F13AB1);
+  background-color: #f3ec78;
+  background-image: linear-gradient(#e72744, #f13ab1);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-
 }
-
+.navbar_logo {
+  background-color: #f3ec78;
+  background-image: linear-gradient(#e72744, #f13ab1);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
 
 .navbar,
 .navbar-default {
-    background-image: linear-gradient(to bottom,white 0,white
-     100%) !important; /* override background image gradient w/ flat color */
+  background-image: linear-gradient(
+    to bottom,
+    white 0,
+    white 100%
+  ) !important; /* override background image gradient w/ flat color */
 }
 
 .list-item {
