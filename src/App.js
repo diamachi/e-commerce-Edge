@@ -58,8 +58,7 @@ function App() {
     <div class="app">
       {user ? (
         <>
-          {/*<Upper />*/}
-          <Navbar />
+          <Upper />
 
           <Router>
             <div>
