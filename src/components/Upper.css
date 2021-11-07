@@ -19,6 +19,15 @@ body {
   align-items: center;
 }
 
+.color-nav{
+  background-color: rgb(95,174,31);
+}
+
+.navbar,
+.navbar-default {
+    background-image: linear-gradient(to bottom,#ff516c 0,#ff516c 100%) !important; /* override background image gradient w/ flat color */
+}
+
 .list-item {
   list-style: none;
   margin-right: 1rem;

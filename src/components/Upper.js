@@ -2,26 +2,21 @@
 import React from "react";
 import "./Upper.css";
 import {
-  NavDropdown,
   Nav,
-  Offcanvas,
   Container,
-  Button,
   Navbar,
-  Form,
-  FormControl,
 } from "react-bootstrap";
 import { Link } from 'react-router-dom'
 
 function Upper() {
   return (
     <>
-      <Navbar sticky="top" bg="light" expand={false}>
+      <Navbar sticky="top" bg="light" expand={false} className="color-nav">
         <Container fluid>
           <Navbar.Brand componentClass={Link} to="/" href="/">Myntra Forum</Navbar.Brand>
-          <Nav.Link class="nav-list  " componentClass={Link} href="/community" to="/dogs">Community</Nav.Link>
-          <Nav.Link class="nav-list  " componentClass={Link} href="/community" to="/dogs">New Arrivals</Nav.Link>
-          <Nav.Link class="nav-list  " componentClass={Link} href="/rewards" to="/dogs">Rewards</Nav.Link>
+          <Nav.Link class="nav-list  " componentClass={Link} href="/community" to="/community"><h3><p class="text-dark font-weight-bold">Community</p></h3></Nav.Link>
+          <Nav.Link class="nav-list  " componentClass={Link} href="/community" to="/community"><h3><p class="text-dark font-weight-bold">New Arrivals</p></h3></Nav.Link>
+          <Nav.Link class="nav-list  " componentClass={Link} href="/rewards" to="/rewards"><h3><p class="text-dark font-weight-bold">Rewards</p></h3></Nav.Link>
 
         </Container>
       </Navbar>
