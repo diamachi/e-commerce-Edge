@@ -57,7 +57,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+### Screenshots
+
+![](https://i.imgur.com/4H1BiLF.png)
+
+![](https://i.imgur.com/9THgSrV.png)
 
 
 <hr>
@@ -70,7 +74,7 @@
 * [Bootstrap](https://getbootstrap.com)
 * [MaterialUI Treasury](https://mui-treasury.com/)
 * [Firebase](https://firebase.google.com/)
-
+* [NodeJS](https://nodejs.org/en/)
 
 
 <hr>
@@ -87,6 +91,10 @@ To get a local copy up and running follow these simple example steps.
 * npm
   ```sh
   npm install npm@latest -g
+  ```
+* node version 14.17.2
+  ``` sh
+  nvm install 14.17.2
   ```
 
 ### Installation
