@@ -22,6 +22,9 @@ body {
 .color-nav{
   background-color: #e66465;
 }
+.logo{
+  font-weight: bold;
+}
 
 .gradient-text {
     background-color: #f3ec78;
@@ -31,6 +34,15 @@ body {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
+}
+.navbar_logo{  background-color: #f3ec78;
+  background-image: linear-gradient(#E72744, #F13AB1);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+
 }
 
 

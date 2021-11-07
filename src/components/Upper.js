@@ -7,14 +7,13 @@ import {
   Navbar, Form, FormControl
 } from "react-bootstrap";
 import { Link } from 'react-router-dom';
-import SearchIcon from '@material-ui/icons/Search';
 
 function Upper() {
   return (
     <>
       <Navbar sticky="top" bg="light" expand={false} className="color-nav">
         <Container fluid>
-          <Navbar.Brand componentClass={Link} to="/" href="/"><img
+          <Navbar.Brand className="gradient-text logo" componentClass={Link} to="/" href="/"><img class="logo-image"
             src="https://i.imgur.com/PIVn72N.png"
             width="40"
             height="30"

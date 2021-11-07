@@ -31,23 +31,10 @@ const Order = () => {
   };
 
   return (
-    // <div classname="both-equal">
-    //   <div className="cols-left">
-    //     <p>col2</p>
-    //   </div>
     <div className="products">
-      {/* <h1 className="heading">Product Id</h1> */}
       <div className="cols">
         <div className="commentSection">
-          {/* <CommentSection
-    currentUser={
-      userId && { userId: userId, avatarUrl: avatarUrl, name: name }
-    }
-    commentsArray={comment}
-    setComment={setComment}
-    signinUrl={signinUrl}
-    signupUrl={signupUrl}
-  /> */}
+          {}
           <div className="header"> </div>
           <CommentSection
             currentUser={
@@ -60,13 +47,6 @@ const Order = () => {
             customInput={customInputFunc}
           />
         </div>
-        {/* <div class='verticalLine'></div> */}
-        {/* <div className="commentSection">
-    <div className="header">{count} Comments (user not logged in)</div>
-    <CommentSection commentsArray={comment}
-      setComment={setComment} signinUrl={signinUrl} signupUrl={signupUrl} />
-  </div> */}
-        {/* </div> */}
       </div>
     </div>
   );
