@@ -18,6 +18,7 @@ import { login, logout } from "./features/userSlice";
 import Home from "./components/Home";
 import Community from "./components/Community";
 import Rewards from "./components/Rewards";
+import Navbar from "./components/Navbar";
 
 // function App() {
 //   return (
@@ -57,7 +58,8 @@ function App() {
     <div class="app">
       {user ? (
         <>
-          <Upper />
+          {/*<Upper />*/}
+          <Navbar />
 
           <Router>
             <div>
