@@ -5,10 +5,12 @@ import GoogleFontLoader from "react-google-font-loader";
 import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import Divider from "@material-ui/core/Divider";
-import Link from "@material-ui/core/Link";
+// import Link from "@material-ui/core/Link";
 import { makeStyles } from "@material-ui/core/styles";
 import { Column, Row, Item } from "@mui-treasury/components/flex";
 import { useDynamicAvatarStyles } from "@mui-treasury/styles/avatar/dynamic";
+import { Link } from "react-router-dom";
+import Discussion from "./Discussion";
 
 const usePersonStyles = makeStyles(() => ({
   text: {
@@ -51,7 +53,12 @@ const PersonItem = ({ src, name, friendCount }) => {
           </div>
         </Item>
         <Item position={"middle"}>
-          <Button className={styles.btn} variant={"outlined"}>
+          <Button
+            className={styles.btn}
+            variant={"outlined"}
+            component={Link}
+            to={"/Discussion"}
+          >
             Join
           </Button>
         </Item>
@@ -90,7 +97,7 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-export const ForumLists = React.memo(function SocialCard() {
+export const ForumLists = React.memo(function SocialCard(props) {
   const styles = useStyles();
   return (
     <>

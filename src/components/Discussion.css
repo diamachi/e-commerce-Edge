@@ -1,7 +1,6 @@
-.community-main {
+.discussion-forum {
   display: flex;
 }
-
 .forums-section {
   flex: 1;
   position: relative;

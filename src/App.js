@@ -18,6 +18,7 @@ import { login, logout } from "./features/userSlice";
 import Home from "./components/Home";
 import Community from "./components/Community";
 import Rewards from "./components/Rewards";
+import Discussion from "./components/Discussion";
 import Navbar from "./components/Navbar";
 
 // function App() {
@@ -71,6 +72,9 @@ function App() {
                 </Route>
                 <Route path="/rewards">
                   <Rewards />
+                </Route>
+                <Route path="/Discussion">
+                  <Discussion />
                 </Route>
               </Switch>
             </div>
