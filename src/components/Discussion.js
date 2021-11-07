@@ -1,6 +1,7 @@
 import React from "react";
 import SideCard from "./SideCard";
 import Order from "./Order";
+import "./Discussion.css";
 
 function Discussion() {
   return (

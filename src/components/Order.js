@@ -36,7 +36,7 @@ const Order = () => {
     //     <p>col2</p>
     //   </div>
     <div className="products">
-      <h1 className="heading">Product Id</h1>
+      {/* <h1 className="heading">Product Id</h1> */}
       <div className="cols">
         <div className="commentSection">
           {/* <CommentSection

@@ -15,3 +15,11 @@
   margin: 10px;
   padding: 20px;
 }
+.forums-section > p {
+  padding-bottom: 40px;
+  font-size: 30px;
+}
+
+p :hover {
+  color: #e212f5;
+}
