@@ -21,7 +21,7 @@ const useStyles = makeStyles(({ breakpoints, spacing }) => ({
     marginRight: "50px",
     marginTop: "25px",
     overflow: "initial",
-    background: "#FD913C",
+    background: "#DDBEBE",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
