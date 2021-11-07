@@ -17,8 +17,8 @@
   padding: 15px;
   border-radius: 5px;
   margin: 20px;
-  border-top: 1px solid rgb(241, 201, 201);
-  background-color: #fff6f7;
+  /* border-top: 1px solid rgb(241, 201, 201); */
+  background-color: white;
   box-shadow: 0px 0px 10px #cfd8dc;
 }
 
