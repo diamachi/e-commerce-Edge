@@ -2,12 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #f05524;
+  color: #000000;
   padding: 10px;
 }
 
 .chatHeader_hash {
-  color: #f05524;
+  color: #000000;
   font-size: 30px;
   padding: 10px;
 }
@@ -15,7 +15,7 @@
 .chatHeader_left > h3 {
   display: flex;
   align-items: center;
-  color: #ff8e9f;
+  color: #000000;
 }
 
 .chatHeader_right {
@@ -30,7 +30,7 @@
   cursor: pointer;
 }
 .chatHeader_right > .MuiSvgIcon-root:hover {
-  color: white;
+  color: #e66465;
 }
 
 /* .chatHeader_search {
