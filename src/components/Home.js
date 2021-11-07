@@ -6,13 +6,13 @@ import Adver from "./Ad";
 function Home() {
     return (
         <div class="adver_side_chat">
-            <Adver class='sticky-top'>
-
+            <Adver class="adver">
             </Adver>
-            <Sidebar />
-            <Chat />
+            <Sidebar class="sidebar">              
+            </Sidebar>
+            <Chat class="chat"></Chat>
         </div>
     )
 }
 
-export default Home
+export default Home;

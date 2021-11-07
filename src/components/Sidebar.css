@@ -3,7 +3,8 @@
   flex-direction: column;
   flex: 0.25;
   height: 100vh;
-  background-color: #ffdede;
+  background-color: #fff6f7;
+  /* background: linear-gradient(#e66465, #9198e5); */
 }
 
 .sidebar_top {
@@ -11,9 +12,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #ffdede;
+  background-color: #fff6f7;
   color: black;
   border-bottom: 1px solid #26282c;
+  
 }
 
 .sidebar_channels {
@@ -24,14 +26,14 @@
   cursor: pointer;
 }
 .sidebar_addChannel:hover {
-  color: white;
+  color: #e66465;
 }
 .sidebar_channelsHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #ffdede;
+  background-color: #fff6f7;
   color: black;
 }
 .sidebar_header {
@@ -48,7 +50,7 @@
   justify-content: space-between;
   align-items: center;
   color: black;
-  background-color: #ffdede;
+  background-color: #fff6f7;
   padding: 10px;
   border-top: 1px solid black;
 }

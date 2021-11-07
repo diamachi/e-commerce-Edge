@@ -1,4 +1,6 @@
-.adver{
+.advert{
+    display:flex;
+    max-height:90vh;
     margin-top: 9rem;
     margin-left: 1rem;
     margin-right: 2rem;
