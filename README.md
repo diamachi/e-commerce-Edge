@@ -14,7 +14,7 @@
     <img src="https://i.imgur.com/KEwgVTc.png" alt="Logo" width="80" height="80">
   </a>
 
-<h1 align="center">Myntra Forum</h1>
+<h1 align="center">E-Commerce Edge</h1>
 
   <p align="center">
     Description
