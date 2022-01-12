@@ -17,7 +17,7 @@ function Upper() {
           >
             <img
               class="logo-image"
-              src="https://i.imgur.com/PIVn72N.png"
+              src="https://i.imgur.com/ksSo1Z3.png"
               width="40"
               height="30"
               className="d-inline-block align-top"
