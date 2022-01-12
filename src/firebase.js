@@ -1,13 +1,12 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDTxwZvYi6lmGtzQ2tTjgqFVzo1qeE5JLY",
-  authDomain: "forum-test-2507e.firebaseapp.com",
-  projectId: "forum-test-2507e",
-  storageBucket: "forum-test-2507e.appspot.com",
-  messagingSenderId: "43267579468",
-  appId: "1:43267579468:web:a943a414d78383b4145ee9",
-  measurementId: "G-VGZ7EB52JP",
+  apiKey: "AIzaSyAf_o9EbPMItcukF62cs3Y7sQAweKhHBtI",
+  authDomain: "test-commerce-10105.firebaseapp.com",
+  projectId: "test-commerce-10105",
+  storageBucket: "test-commerce-10105.appspot.com",
+  messagingSenderId: "274335927108",
+  appId: "1:274335927108:web:5b15a928b7e6be44b3e511"
 };
 
 //   const firebaseApp = firebase.initializeApp(firebaseConfig);
