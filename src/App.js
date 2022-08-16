@@ -7,28 +7,18 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-// import Card from "./components/Card";
+
 import { useDispatch, useSelector } from "react-redux";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import Community from "./components/Community";
-import Discussion from "./components/Discussion";
-import Home from "./components/Home";
-import Login from "./components/Login";
-import Rewards from "./components/Rewards";
-import Upper from "./components/Upper";
+
+
+import Community from "./components/Community/community";
+import Home from "./components/Home/home";
+import Login from "./components/Login/login";
+
+
 import { login, logout, selectUser } from "./features/userSlice";
 import { auth } from "./firebase";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       {/* navbar */}
-//       <Upper />
-//       {/* <Card /> */}
-//       {/* genchat */}
-//     </div>
-//   );
-// }
 
 // export default App;
 
@@ -57,7 +47,7 @@ function App() {
     <div class="app">
       {user ? (
         <>
-          <Upper />
+          
 
           <Router>
             <div>
@@ -68,12 +58,7 @@ function App() {
                 <Route path="/community">
                   <Community />
                 </Route>
-                <Route path="/rewards">
-                  <Rewards />
-                </Route>
-                <Route path="/Discussion">
-                  <Discussion />
-                </Route>
+                
               </Switch>
             </div>
           </Router>
