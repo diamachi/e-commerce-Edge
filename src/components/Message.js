@@ -1,11 +1,9 @@
-import { Avatar } from "@material-ui/core";
 import React from "react";
 import "./Message.css";
 
 function Message({ timestamp, user, message }) {
   return (
     <div className="message">
-      <Avatar src={user.photo} />
       <div className="message_info">
         <h4>
           {user.displayName}

@@ -4,22 +4,20 @@
 // import Card from './components/Card'
 // import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 // import Upper from "./components/Upper";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import React, { useEffect } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 // import Card from "./components/Card";
+import { useDispatch, useSelector } from "react-redux";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import Upper from "./components/Upper";
-import { useSelector, useDispatch } from "react-redux";
-import { selectUser } from "./features/userSlice";
-import Login from "./components/Login";
-import { auth } from "./firebase";
-import { login, logout } from "./features/userSlice";
-import Home from "./components/Home";
 import Community from "./components/Community";
-import Rewards from "./components/Rewards";
 import Discussion from "./components/Discussion";
-import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Login from "./components/Login";
+import Rewards from "./components/Rewards";
+import Upper from "./components/Upper";
+import { login, logout, selectUser } from "./features/userSlice";
+import { auth } from "./firebase";
 
 // function App() {
 //   return (
