@@ -1,8 +1,7 @@
 import React from "react";
-import "./Login.css";
-import logosrc from "../images/myntra_logo.png";
-import { Button } from "@material-ui/core";
 import { auth, provider } from "../firebase";
+import logosrc from "../images/myntra_logo.png";
+import "./Login.css";
 
 function login() {
   const signIn = () => {
@@ -10,12 +9,11 @@ function login() {
   };
   return (
     <div className="login">
-      {/* <h2>Myntra Forum</h2>   */}
       <div className="login_logo">
         <img src={logosrc} alt="" />
         <span className="title">-Forum</span>
       </div>
-      <Button onClick={signIn}>Login Now</Button>
+      <button onClick={signIn}>Login Now</button>
     </div>
   );
 }
