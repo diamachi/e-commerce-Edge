@@ -4,6 +4,7 @@ import logosrc from "../images/myntra_logo.png";
 import "./Login.css";
 
 function login() {
+  
   const signIn = () => {
     auth.signInWithPopup(provider).catch((error) => alert(error.message));
   };
