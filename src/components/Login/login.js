@@ -3,7 +3,6 @@ import { HashRouter as Router, Route, NavLink } from "react-router-dom";
 import SignUpForm from "./pages/SignUpForm";
 import SignInForm from "./pages/SignInForm";
 import sidepage from "./16.jpg"
-import {CSSTransition} from 'react-transition-group';
 import "./login.css";
 
 class App extends Component {

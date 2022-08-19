@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import face_logo from "./assets/facebook.png"
 import google_logo from"./assets/google.png"
 import { auth, provider } from "../../../firebase";
-import SocialButtonsContainer from 'react-social-media-buttons';
 import Button from 'react-bootstrap/Button';
 
 
