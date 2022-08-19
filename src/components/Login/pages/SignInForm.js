@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import myn_logo from "./assets/myntra_logo.png"
 import face_logo from "./assets/facebook.png"
 import google_logo from"./assets/google.png"
 import { auth, provider } from "../../../firebase";
+import SocialButtonsContainer from 'react-social-media-buttons';
+import Button from 'react-bootstrap/Button';
+
 
 const signIn = () => {
     auth.signInWithPopup(provider).catch((error) => alert(error.message));
@@ -81,16 +83,16 @@ class SignInForm extends Component {
           </div>
 
           <div className="socialMediaButtons">
-            <button className="formFieldButton">
-                <img src={google_logo} width="36px" className="imgGog"/>
-                Sign In with Google</button>{" "}
-                
-            <button className="formFieldButton">
-                <img src={face_logo} width="36px" className="imgFac"/>
-                Sign In with Facebook</button>{" "}
-            <button className="formFieldButton">
-                <img src={myn_logo} width="44px" className="imgMyn"/>
-                Sign In with Myntra </button>{" "}
+          <Button variant="primary" className="btn-goog rounded-pill" size="lg" onClick={signIn}>
+            <img className="btn-image" src={google_logo}/>
+            <span className="text-button text-capitalize">Sign In with Google</span>
+          </Button>{' '}
+          <Button variant="primary" className="btn-goog rounded-pill" size="lg" onClick={signIn}>
+            <img className="btn-image" src={face_logo}/>
+            <span className="text-button text-capitalize">Sign In with Facebook</span>
+          </Button>{' '}
+            
+            
           </div>
         </form>
       </div>
